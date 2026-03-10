@@ -1,6 +1,6 @@
-<<<<<<< HEAD
-const { Telegraf } = require('telegraf');
-const bot = new Telegraf('8727782812:AAE-j71DC0bvWg_hb7rgoTCNuo-J23cYOIg');
+require("dotenv").config();
+const { Telegraf } = require("telegraf");
+const bot = new Telegraf(process.env.BOT_8727782812:AAE-j71DC0bvWg_hb7rgoTCNuo-J23cYOIg);
 // ===============================
 // CONFIGURAÇÃO
 // ===============================
